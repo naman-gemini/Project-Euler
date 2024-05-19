@@ -1,0 +1,14 @@
+Including Previous
+
+1-4000 (60 seconds) => 809670819
+4001-8000 (411 seconds) => 288782030
+8001-12000 (1080 seconds) => 851066435
+12001-16000 (2460 seconds) => 952666509
+16001-20000 (4440 seconds) => 538319652
+Total Run Time = 2.3 hours
+
+Using precalculated mod inverses and simplified B(n) formula:
+1-20000 (260 seconds )=> 538319652
+
+Using precalculated mod inverses and recursive B(n) formula: (650_recursive_bn.rb)
+1-20000 (70 seconds )=> 538319652

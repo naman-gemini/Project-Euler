@@ -1,0 +1,1 @@
+puts (1..99).to_a.product((1..99).to_a).map { |a, b| (a ** b).to_s.chars.map(&:to_i).sum }.max
